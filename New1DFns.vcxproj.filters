@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pcg\pcg_basic.c">
+      <Filter>pcg</Filter>
+    </ClCompile>
+    <ClCompile Include="coprime.cpp" />
+    <ClCompile Include="Kritzinger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pcg">
+      <UniqueIdentifier>{b079146e-f496-4f9b-a299-370bbb703918}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pcg\pcg_basic.h">
+      <Filter>pcg</Filter>
+    </ClInclude>
+    <ClInclude Include="coprime.h" />
+    <ClInclude Include="Kritzinger.h" />
+    <ClInclude Include="ThueMorse.h" />
+  </ItemGroup>
+</Project>
